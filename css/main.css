@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1100px) and (min-width: 601px){
+.container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  margin-top: 100px;
+}
+.container.fish{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-template-rows: 2;
+  grid-row-end: 2;
+
+}
+.container.rock{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-template-rows: 3;
+  grid-row-end: 3;
+
+}
